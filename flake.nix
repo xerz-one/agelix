@@ -19,8 +19,6 @@
       forAllSystems = with sysrepo.lib; genAttrs (import agenix.inputs.systems);
     in
     {
-      inherit inputs;
-      
       packages = forAllSystems (
         system:
         let
