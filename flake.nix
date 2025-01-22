@@ -8,7 +8,7 @@
       inputs.nixpkgs.follows = "sysrepo";	
     };
     lix-module = {
-      url = "https://git.lix.systems/lix-project/nixos-module/archive/main.tar.gz";
+      url = "https://git.lix.systems/lix-project/nixos-module/archive/2.92.0.tar.gz";
       inputs.nixpkgs.follows = "sysrepo";
     };
   };
